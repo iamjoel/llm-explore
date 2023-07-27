@@ -2,6 +2,10 @@
 // source -> load -> transform -> embed -> store -> retrieve
 
 import {splitByWordsAndMaxChunkSize, splitBySeparator, splitCode, separatorByAt} from './splitter.js'
+import dotenv from 'dotenv'
+dotenv.config()
+
+console.log(process.env.OPENAI_API_KEY)
 // split text
 // console.log(await splitByWordsAndMaxChunkSize([`Hi.\n\nI'm Harrison.\n\nHow? Are? You?\nOkay then f f f f.
 // This is a weird text to write, but gotta test the splittingggg some how.\n\n

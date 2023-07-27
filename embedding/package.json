@@ -10,7 +10,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "langchain": "^0.0.117"
+    "dotenv": "^16.3.1",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.117",
+    "openai": "^3.3.0"
   },
   "type": "module"
 }
