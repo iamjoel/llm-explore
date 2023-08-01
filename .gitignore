@@ -48,3 +48,6 @@ yarn.lock
 
 # pmpm
 pnpm-lock.yaml
+
+# gradio
+__pycache__

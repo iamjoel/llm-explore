@@ -1,6 +1,9 @@
 import streamlit as st
 from langchain import PromptTemplate
 from langchain.prompts.few_shot import FewShotPromptTemplate
+from langchain.output_parsers import PydanticOutputParser
+from pydantic import BaseModel, Field, validator
+from typing import List
 
 st.set_page_config(page_title="Prompt Generator: For magical prompt ideas", page_icon="💫", layout='wide')
 st.title('Prompt Generator')
@@ -54,4 +57,33 @@ with outputArea:
     st.write(res)
 
 
+# To format the output, we can use the PydanticOutputParser
+class Actor(BaseModel):
+    name: str = Field(description="name of an actor")
+    film_names: List[str] = Field(description="list of names of films they starred in")
+
+
+actor_query = "Generate the filmography for a random actor."
+
+parser = PydanticOutputParser(pydantic_object=Actor)
+
+prompt = PromptTemplate(
+    template="Answer the user query.\n{format_instructions}\n{query}\n",
+    input_variables=["query"],
+    # The output parser will be used to parse the output of the model
+    partial_variables={"format_instructions": parser.get_format_instructions()},
+)
+
+st.write(prompt.format(query='Question...'))
+'''
+The output should be formatted as a JSON instance that conforms to the JSON schema below.
+
+As an example, for the schema {"properties": {"foo": {"title": "Foo", "description": "a list of strings", "type": "array", "items": {"type": "string"}}}, "required": ["foo"]}} the object {"foo": ["bar", "baz"]} is a well-formatted instance of the schema. The object {"properties": {"foo": ["bar", "baz"]}} is not well-formatted.
+
+Here is the output schema:
+{"properties": {"name": {"title": "Name", "description": "name of an actor", "type": "string"}, "film_names": {"title": "Film Names", "description": "list of names of films they starred in", "type": "array", "items": {"type": "string"}}}, "required": ["name", "film_names"]}
+'''
+
+# 
+# https://python.langchain.com/docs/modules/model_io/output_parsers/retry
 
