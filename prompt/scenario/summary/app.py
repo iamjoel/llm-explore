@@ -5,9 +5,8 @@ from langchain.llms import OpenAI
 from langchain import PromptTemplate
 
 load_dotenv() 
-llm = OpenAI(openai_api_key = os.getenv('OPENAI_API_KEY'))
 promptTemplate = PromptTemplate.from_template("""
-总结故事的内容。故事的内容是：{content}
+总结内容。内容是：{content}
 """)
 
 DESCRIPTION = """
@@ -15,8 +14,12 @@ DESCRIPTION = """
 Prompt: {prompt}
 """.format(prompt=promptTemplate.template.format(content="bala bala"))
 
-def summary(content):
-  # return 'efffefef'
+def summary(content, apiKey):
+  openai_api_key = apiKey if apiKey != '' else os.getenv('OPENAI_API_KEY')
+  if openai_api_key is None:
+    raise gr.Error('请输入 openai_api_key')
+    return
+  llm = OpenAI(openai_api_key = openai_api_key)
   return llm(promptTemplate.format(content=content))
 
 with gr.Blocks(css='style.css') as demo:
@@ -24,15 +27,16 @@ with gr.Blocks(css='style.css') as demo:
 
   with gr.Row() as row:
     with gr.Column():
-      content = gr.Textbox(lines=10, label="故事内容", placeholder="input...")
+      openai_api_key = gr.Textbox(label="OPENAI API Key", placeholder="sk-xxx")
+      content = gr.Textbox(lines=10, label="要总结的内容", placeholder="input...")
       run_button = gr.Button('Run', variant="primary")
     with gr.Column():
       # result = gr.Textbox(lines=5, label="总结内容", placeholder="Summary")
-      gr.Markdown('总结结果')
+      gr.Markdown('结果')
       result = gr.Markdown('') # Get the result
     run_button.click(
       fn= summary,
-      inputs=[content],
+      inputs=[content, openai_api_key],
       outputs=[result]
     )
   
