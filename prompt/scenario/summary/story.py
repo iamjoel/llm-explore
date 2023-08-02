@@ -7,13 +7,13 @@ from langchain import PromptTemplate
 load_dotenv() 
 llm = OpenAI(openai_api_key = os.getenv('OPENAI_API_KEY'))
 promptTemplate = PromptTemplate.from_template("""
-总结故事的主要内容。故事的主要内容是：{content}
+总结故事的内容。故事的内容是：{content}
 """)
 
 DESCRIPTION = """
 # 故事总结
 Prompt: {prompt}
-""".format(prompt=promptTemplate.template.format(content="..."))
+""".format(prompt=promptTemplate.template.format(content="bala bala"))
 
 def summary(content):
   # return 'efffefef'
@@ -28,7 +28,7 @@ with gr.Blocks(css='style.css') as demo:
       run_button = gr.Button('Run', variant="primary")
     with gr.Column():
       # result = gr.Textbox(lines=5, label="总结内容", placeholder="Summary")
-      gr.Markdown('## 总结内容')
+      gr.Markdown('总结结果')
       result = gr.Markdown('') # Get the result
     run_button.click(
       fn= summary,
