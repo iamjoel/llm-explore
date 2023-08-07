@@ -13,3 +13,6 @@
       * ReAct 和 MRKL
       * Function Call
   * 产品
+* Demo 应用 & 部署
+  * [Gradio](./deploy/gradio/readme.md)
+  * [Streamlit](./deploy/streamlit/readme.md)
