@@ -52,4 +52,4 @@ Respond with your ranking, and nothing else. Be fair and unbiased in your judgem
 ## [ChainForge](https://github.com/ianarawjo/ChainForge)
 > An open-source visual programming environment for battle-testing prompts to LLMs.
 
-同一个 Prompt，度量不同的结果。
+同一个 Prompt，度量不同模型的输出结果。
