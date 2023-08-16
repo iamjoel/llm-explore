@@ -23,6 +23,11 @@
 ### NPL 任务
 * [Promptify](https://github.com/promptslab/Promptify) 实体识别等。
 
+## 公司
+### 国内
+* Jina。
+* Sealos
+
 
 
 
