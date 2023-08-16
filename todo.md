@@ -4,3 +4,7 @@
 2. 模型选择+根据生成的prompt 加参数值，评估两个prompt 的好坏。
 
 算法参考 gpt prompt engineer 的。
+
+## 软件待体验
+* [Phind.com - Code faster with AI.](https://marketplace.visualstudio.com/items?itemName=phind.phind)
+* [Pi](https://inflection.ai/)

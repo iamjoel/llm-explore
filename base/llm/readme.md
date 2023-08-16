@@ -49,24 +49,29 @@ LLM 决定了一个应用的能力上限。
 
 ## 原理
 ### Transformer
-LLM 模型都有采用 Transformer 模型。
+LLM 模型很多都采用 Transformer 模型。GPT 的全称是 Generative Pre-Trained Transformer。
 
 Transformer 是一种基于注意力机制(Attention Mechanism)的神经网络模型,被广泛用于自然语言处理(NLP)领域。
 
 其主要特点及优势包括:
 
-1. 整个模型仅基于注意力机制,不再使用RNN或CNN结构。
+1. 整个模型仅基于注意力机制,不再使用 RNN 或 CNN 结构。
 2. 并行计算,计算效率更高。
 3. 可以建模远距离依赖关系。
 4. 编码器-解码器(Encoder-Decoder)结构,可快速高效地对序列进行转换。
 5. 可学习位置编码,为模型提供序列顺序信息。
 6. 多头注意力机制,可以关注文本不同位置的信息。
 7. 前馈全连接网络逐位置进行特征提取。
-  
-Transformer模型经常被用在机器翻译、文本生成、填空题等NLP任务上。代表性的Transformer模型包括:
+
+Transformer 模型经常被用在机器翻译、文本生成、填空题等NLP任务上。代表性的Transformer模型包括:
 
 * Transformer (原始论文模型)
 * GPT (Improving Language Understanding by Generative Pre-Training)
 * BERT (Bidirectional Encoder Representations from Transformers)
 * T5 (Text-To-Text Transfer Transformer)
+
+相关文章
+* [Hugging face 文章](https://huggingface.co/learn/nlp-course/zh-CN/chapter1/1?fw=pt)
+* [OpenAI ChatGPT（一）：十分钟读懂 Transformer](https://zhuanlan.zhihu.com/p/600773858)
+* [Transformer模型详解（图解最完整版）](https://zhuanlan.zhihu.com/p/338817680)
 

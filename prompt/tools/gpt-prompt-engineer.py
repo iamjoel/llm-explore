@@ -6,7 +6,7 @@ import itertools
 import wandb
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-openai.api_key = "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" # enter your OpenAI API key here
+openai.api_key = "" # enter your OpenAI API key here
 
 use_wandb = False # set to True if you want to use wandb to log your config and results
 

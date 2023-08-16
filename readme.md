@@ -1,18 +1,14 @@
 # LLM 探索
-## 目录
-* 底层
-* 开发
-* 部署
+* [书签](./bookmark.md)
 * [术语](./terms-and-definitions.md)
 * 资源
 
 ## 底层
 * [大规模语言模型(LLM)](./base/llm/readme.md)
-  * 优化
-    * 预训练
-    * 微调
+  * 优化：预训练，微调
   * 评测。评测集。
-* [算力](./base/computing-power/readme.md)
+  * [使用开源模型](./base/llm/use.md)。
+* [算力](./base/computing-power/readme.md)\
 * 数据
   * Alignment数据
 
@@ -41,4 +37,5 @@
 
 ## 资源
 * [Prompt Engineering Guide](https://www.promptingguide.ai/zh)
+* [构筑大语言模型应用：应用开发与架构设计](https://aigc.phodal.com/prelude.html)
 * [23.08.15_大模型赛道的技术和应用分析（残缺）](https://whjlnspmd6.feishu.cn/wiki/DBnWwik1piTB6Iki02CcXoVQn3S)

@@ -20,7 +20,7 @@ Prompt Engineer.
 
 ## 优化方向
 关键字： [APE（Automatic Prompt Optimization）](https://www.promptingguide.ai/techniques/ape)
-
+* [gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer) 根据需求，生成多个 Prompt。自动评估，挑选里面最好的一条。
 * 提升清晰性
   * [betterprompt](https://github.com/krrishdholakia/betterprompt) 衡量困惑度。论文中研究：在广泛的任务，我们表明，较低的困惑的提示，提示符就能够更好地执行任务。
 
@@ -32,6 +32,7 @@ Prompt Engineer.
 * 验证
 
 ## 产品
+* [gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer)
 * [Prompt perfect](https://promptperfect.jinaai.cn/)
 * [PROMPTMETHEUS](https://promptmetheus.com/) 
 PROMPTMETHEUS is a Prompt Engineering IDE, designed to help you automate repetitive tasks and augment your apps and workflows with the mighty capabilities of ChatGPT and other cutting-edge LLMs.不太会用。。。
