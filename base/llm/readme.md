@@ -42,10 +42,12 @@ LLM 决定了一个应用的能力上限。
 
 ### 开源
 * Llama2。可商用开源模型的领头羊。Meta 出品。很多开源模型都是基于 Llama 微调出来的。
+* Falcon
 * 国内
   * 智谱。清华大学。
     * ChatGLM。
-  * 百川。前搜狗王小川。
+    * [CodeGeeX2](https://github.com/THUDM/CodeGeeX2)。代码生成模型。
+  * 百川智能。前搜狗王小川。
 
 ## 原理
 ### Transformer

@@ -5,9 +5,12 @@
 [星火](https://xinghuo.xfyun.cn/desk)
 
 ## 搜索引擎
+[perplexity](https://www.perplexity.ai)
 [phind](https://www.phind.com/)
 
 ## 开发
+[OpenAI Playground](https://platform.openai.com/playground)
+
 ### 使用模型
 * [Hugging Face](https://huggingface.co/models)
 * [Replicate](https://replicate.com/explore)
