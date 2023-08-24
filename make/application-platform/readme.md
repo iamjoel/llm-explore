@@ -1,5 +1,6 @@
 # 应用平台
 ## Workflow
+* [AirOps](https://www.airops.com/)
 * [Langflow](https://github.com/logspace-ai/langflow)， Flowise
 * AirOps
 * [takomo.ai](https://takomo.ai/) 输出(文字，图片，音频) + 不同模型 + 输出。
@@ -7,4 +8,7 @@
 
 ## 单步
 * [Anakin.ai](https://anakin.ai/) Bring AI to everyone's work. 文本生成，图片生成。
-* [Copilot Hub](https://app.copilothub.ai/copilots) 从 prompt hub 转行为面向学生的解读论文类等。
+* [CopilotHub](https://app.copilothub.ai/copilots) 从 prompt hub 转行为面向学生的解读论文类等。
+
+## 综合
+### [FastGpt](https://fastgpt.run/)

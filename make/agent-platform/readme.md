@@ -18,3 +18,5 @@ Agent 之间自主沟通合作，最后解决问题。
 > GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks.
 
 
+## [Fixie.ai](https://www.fixie.ai/)
+> Fixie is the world's leading platform for building conversational AI Sidekicks that are designed to answer questions, take action, and live directly alongside your application.
