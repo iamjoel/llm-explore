@@ -32,12 +32,16 @@ Prompt Engineer.
 * 验证
 
 ## 产品
+### 优化 Prompt
 * [gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer)
 * [Prompt perfect](https://promptperfect.jinaai.cn/)
 * [prompt better](https://promptbetter.ai/?twclid=2-cb4uxhu0bwnw6rm30vpnx048)
 * [PROMPTMETHEUS](https://promptmetheus.com/) 
 PROMPTMETHEUS is a Prompt Engineering IDE, designed to help you automate repetitive tasks and augment your apps and workflows with the mighty capabilities of ChatGPT and other cutting-edge LLMs.不太会用。。。
 * [ChatGPT Prompt Generator ](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator) 从一些模版中去搜索。
+
+### Prompt 管理
+* [Knit](https://promptknit.com/) Playground + prompt 的历史，保存，在团队内分享
 
 ## 资源
 * [AIGPT提示工程课程](https://islinxu.github.io/prompt-engineering-note/Introduction/index.html)
