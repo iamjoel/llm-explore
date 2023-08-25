@@ -18,7 +18,7 @@
   * [Prompt](./make/tech/prompt/readme.md)
   * [Embedding](./make/tech/embedding)
   * [Agent](./make/tech/agent/)
-* [Demo 应用 & 部署](./make/make-demo)
+* [Demo 应用 & 部署](./make/deploy)
 
 ## [应用](./app/readme.md)
 * 应用场景

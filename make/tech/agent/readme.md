@@ -15,6 +15,7 @@ AutoGPT 之类的。
 ## 其他
 * [Cot](./cot/readme.md)
 * 思维树
+* 思维图 [思维链CoT进化成思维图GoT，比思维树更优秀的提示工程技术诞生了](https://mp.weixin.qq.com/s/S8Yi_LV5QTWXnev54kc-cA)
 * LLM + P
 * PDDL
 
