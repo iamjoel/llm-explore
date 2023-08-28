@@ -37,6 +37,6 @@ Workflow 做为应用里的技能（服务）来来使用。支持的3种组件�
 
 Library 和 Tools 如何区分？
 
-国产出海。
+国产(聆心智能)出海。
 
 ### [FastGpt](https://fastgpt.run/)

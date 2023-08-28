@@ -1,4 +1,7 @@
 # LLM 探索
+![](./imgs/overview.webp)
+> [Create a CustomGPT And Supercharge your Company with AI  –  Pick the Best LLM](https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-llm-that-works-for-you/)
+
 * [信息来源](./source/readme.md)，[杂乱的](./massive.md)
 * [书签](./bookmark.md)
 * [术语](./terms-and-definitions.md)

@@ -1,5 +1,27 @@
 # Agent 平台
-一般都是基于 [Plan-and-Solve](https://arxiv.org/abs/2305.04091)
+不以 UI 为主。一般都是基于 LLM，知识库，工具（搜索引擎，第三方 API）。
+
+自动规划一般都是基于 [Plan-and-Solve](https://arxiv.org/abs/2305.04091)
+
+## [Voiceflow](https://www.voiceflow.com/)
+> Build amazing conversational assistants
+
+Chatbot 构建工具。用 Flow 构建好后，在本地测试，可以集成到 What Apps 之类的。
+
+Flow 编排的体验好，功能强大。
+面向使用者
+1. 聊天框中更多的交互元素。
+  1. 图片，轮播。
+  2. 展示的文字可以带加粗等。
+  3. 用户可以选择。不同的选择，走不通的分支。
+  4. AI 一次可以回复多条。
+
+面向开发者/制作者
+1. 一个 Agent 里可以有很多个子应用（indent）。可以互相引用。
+2. 有组的概念。把一次交互的内容放到一起。
+
+
+[文章介绍](https://mp.weixin.qq.com/s/VHnvnhrX4GtXHHRZ7Bwl-g)
 
 ## [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 > Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. This program, driven by GPT-4, chains together LLM "thoughts", to autonomously achieve whatever goal you set. As one of the first examples of GPT-4 running fully autonomously, Auto-GPT pushes the boundaries of what is possible with AI.

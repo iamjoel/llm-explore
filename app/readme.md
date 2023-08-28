@@ -4,7 +4,11 @@
 * [Pi](https://inflection.ai/) I’m your personal AI, designed to be supportive, smart, and there for you anytime. Inflection 做的。
 * [copy.ai](https://www.copy.ai/) 给 prompt 做了分类。
 
+### 对话式数据库
+
+
 ## [文本生成](./apps/text-generation/)
+
 ### 写作辅助
 * Notion AI
 * [type.ai](https://type.ai/)
