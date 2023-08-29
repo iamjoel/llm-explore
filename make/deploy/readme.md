@@ -15,3 +15,8 @@
 跑 OpenLLM 上的很多模型，都需要 Nvidia 的 GPU。因此 Mac 上跑不了。。。
 
 跑不需要 GPU 的，对话的过程中会报错。。。
+
+## [魔搭](https://modelscope.cn/home)
+阿里的。
+
+每个云厂商，基本都有类似的问题。
