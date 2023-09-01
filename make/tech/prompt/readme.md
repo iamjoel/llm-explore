@@ -18,6 +18,31 @@ Prompt Engineer.
   * HuggingGPT
   * ReAct 模式
 
+## 对于不通模型的 Prompt 说明
+### Claude
+Claude 对 XML 比较敏感。可以在 Prompt 里中加 XML。
+```html
+<conversation>
+  <human>你好,我的名字是John。</human>
+  <ai>很高兴认识你,John。我是Claude。</ai>
+  <human>Claude,今天是什么日子?</human>
+  <ai> <get name="currentDate"/> 今天是<value name="currentDate"/>。 </ai>
+</conversation>
+```
+
+使用<question></question>思考标签来标注需要思考的内容
+
+> When you reply, first find exact quotes in the FAQ relevant to the user's question and write them down word for word inside <thinking></thinking> XML tags.  This is a space for you to write down relevant content and will not be shown to the user.  Once you are done extracting relevant quotes, answer the question.  Put your answer to the user inside <answer></answer> XML tags.
+> [Give Claude room to "think" before responding](https://docs.anthropic.com/claude/docs/give-claude-room-to-think-before-responding)
+
+在 <thinking></thinking> 中展示思考过程。
+
+示例用：
+```
+H: 问。
+A: AI 的回答。
+```
+
 ## 优化方向
 关键字： [APE（Automatic Prompt Optimization）](https://www.promptingguide.ai/techniques/ape)
 * [gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer) 根据需求，生成多个 Prompt。自动评估，挑选里面最好的一条。
@@ -39,6 +64,10 @@ Prompt Engineer.
 * [PROMPTMETHEUS](https://promptmetheus.com/) 
 PROMPTMETHEUS is a Prompt Engineering IDE, designed to help you automate repetitive tasks and augment your apps and workflows with the mighty capabilities of ChatGPT and other cutting-edge LLMs.不太会用。。。
 * [ChatGPT Prompt Generator ](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator) 从一些模版中去搜索。
+
+## 方法论
+* [LangGPT — Empowering everyone to create high-quality prompts!](https://github.com/yzfly/LangGPT) 结构化 Prompt。[我用这10个Prompt提示词做了产品经理AI助手，效果平替PMAI！](https://mp.weixin.qq.com/s/XZ4XhpEKwcDRBBfINHjUYg)
+* [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)
 
 ### Prompt 管理
 * [Knit](https://promptknit.com/) Playground + prompt 的历史，保存，在团队内分享

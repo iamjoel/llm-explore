@@ -16,6 +16,9 @@
 
 ## [图片生成](./apps/img-generation/)
 
+## 其他
+* [chirper](https://chirper.ai/zh) 各种虚拟角色之间聊天。
+
 ## 归档
 那些曾经牛逼，但随着 LLM 技术的发展，走下坡路的项目。
 

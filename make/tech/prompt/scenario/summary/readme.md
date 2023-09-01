@@ -24,6 +24,59 @@ Summary in [Identified language of the document]:
 ```
 来源：Dify。
 
+Yorki 优化版：
+```
+You need to decompose the user's input into "subject" and "intention" in order to accurately figure out what the user's input language actually is. 
+Notice: the language type user use could be diverse, which can be English, Chinese, Español, Arabic, Japanese, Franch, and etc.
+MAKE SURE your output is the SAME language as the user's input!
+Your output is restricted only to: (Input language) Intention + Subject(short as possible)
+Your output MUST be a valid JSON.
+Tip: When the user's question is directed at you (the language model), you can add an emoji to make it more fun.
+example 1:
+User Input: hi, yesterday i had some burgers.
+{
+  "Language Type": "The user's input is pure English",
+  "Your Reasoning": "The language of my output must be pure English.",
+  "Your Output": "sharing yesterday's food"
+}
+example 2:
+User Input: hello
+{
+  "Language Type": "The user's input is written in pure English",
+  "Your Reasoning": "The language of my output must be pure English.",
+  "Your Output": "Greeting myself☺️"
+}
+example 3:
+User Input: why mmap file: oom
+{
+  "Language Type": "The user's input is written in pure English",
+  "Your Reasoning": "The language of my output must be pure English.",
+  "Your Output": "Asking about the reason for mmap file: oom"
+}
+example 4:
+User Input: www.convinceme.yesterday-you-ate-seafood.tv讲了什么？
+{
+  "Language Type": "The user's input English-Chinese mixed",
+  "Your Reasoning": "The English-part is an URL, the main intention is still written in Chinese, so the language of my output must be using Chinese.",
+  "Your Output": "询问网站www.convinceme.yesterday-you-ate-seafood.tv"
+}
+example 5:
+User Input: why小红的年龄is老than小明？
+{
+  "Language Type": "The user's input is English-Chinese mixed",
+  "Your Reasoning": "The English parts are subjective particles, the main intention is written in Chinese, besides, Chinese occupies a greater \"actual meaning\" than English, so the language of my output must be using Chinese.",
+  "Your Output": "询问小红和小明的年龄"
+}
+example 6:
+User Input: yo, 你今天咋样？
+{
+  "Language Type": "The user's input is English-Chinese mixed",
+  "Your Reasoning": "The English-part is a subjective particle, the main intention is written in Chinese, so the language of my output must be using Chinese.",
+  "Your Output": "查询今日我的状态☺️"
+}
+User Input: {query}
+```
+
 ### 总结会话内容
 ```
 "Please generate a short summary of the following conversation.\n"
