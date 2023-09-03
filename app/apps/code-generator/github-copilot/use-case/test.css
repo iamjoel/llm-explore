@@ -1,0 +1,10 @@
+/* background gradient: from white to blue.  */
+.test {
+  background: linear-gradient(90deg, #fff, #00f);
+}
+
+/* 一号标题 */
+.h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}

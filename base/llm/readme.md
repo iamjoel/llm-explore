@@ -31,6 +31,7 @@ LLM 决定了一个应用的能力上限。
   * 语音转文字模型
 * Anthropic 系列
   * Claude
+* [AI21 Labs](https://www.ai21.com/) 这家公司生成式 AI 最吸引人的地方可以概括为三个关键词：准确、值得信赖且可靠。 [C轮融资1.55亿美元，谷歌、英伟达参投，为什么它会是OpenAI、Cohere最大对手？](https://mp.weixin.qq.com/s/YuAREP0Ui8tW7uYaibuP5w)
 * [Bard](https://bard.google.com/)。 Google
   * [PaLM2](https://ai.google/discover/palm2/)
 * [Cohere](https://cohere.com/)
