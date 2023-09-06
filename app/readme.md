@@ -1,4 +1,9 @@
 # 应用
+本质上用 LLM 的 NLP 的能力：
+* RAG。
+* 推理。选择工具。
+* 其他 Prompt 工程。
+
 ## [聊天类/Chatbot](./apps/chatbot/)
 常见的需求是：
 1. 客服类：从知识库中来获取信息。
@@ -24,6 +29,12 @@
 * Notion AI
 * [type.ai](https://type.ai/)
 * Jasper
+
+## 选择工具
+### [opencopilot](https://opencopilot.dev) 
+> OpenCopilot: Build and embed open-source AI Copilots into your product with ease
+
+选择 SaaS 工具。
 
 ## [图片生成](./apps/img-generation/)
 
