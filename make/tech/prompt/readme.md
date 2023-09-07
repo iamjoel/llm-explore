@@ -74,6 +74,9 @@ PROMPTMETHEUS is a Prompt Engineering IDE, designed to help you automate repetit
 
 ## 资源
 * [AIGPT提示工程课程](https://islinxu.github.io/prompt-engineering-note/Introduction/index.html)
+* Claude 的
+  * [Claude Prompt Design](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design) [Some Tricks](https://docs.anthropic.com/claude/docs/let-claude-say-i-dont-know)
+  * [万字教程：Claude 教你写 AI 提示词，可能是最专业的 AI 工程师写的提示工程教程](https://mp.weixin.qq.com/s/tfkpHOs2jhz3UORh0CvU4Q)
 * Prompt 资源
   * [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
   * [Prompt Base](https://promptbase.com/) Prompt Marketplace.
