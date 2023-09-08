@@ -16,9 +16,13 @@
 此轮融资后，Inflection（15.25亿美元）超越了Anthropic（15亿美元），成为融资第二多的生成式人工智能初创公司，仅次于 OpenAI（迄今为止已筹集113亿美元）。紧随其后的是Cohere（4.45亿美元）、Adept（4.15亿美元）、Runway（1.955亿美元）、Character.ai（1.5亿美元）和Stability AI（约1亿美元）。
 Inflection目前的团队大约有35人，行事作风低调，很少接受媒体采访。最近一次引起大众关注是他们于5月推出了首款产品，即名为Pi的个人AI助理。
 * [copy.ai](https://www.copy.ai/) 给 prompt 做了分类。
+* [Retool](https://retool.com/products/ai) 根据一些场景预置了一些输入输出。
 
 ### 对话式数据库
 * [DB-GPT: 用私有化LLM技术定义数据库下一代交互方式](https://github.com/eosphoros-ai/DB-GPT/blob/main/README.zh.md)
+
+### 读论文
+* [GPT 学术优化 (GPT Academic)](https://github.com/binary-husky/gpt_academic) 为ChatGPT/GLM提供实用化交互界面，特别优化论文阅读/润色/写作体验。
 
 ### 虚拟角色
 * [RealChar](https://github.com/Shaunwei/RealChar) Create, customize and talk to your AI Character/Companion in realtime.
