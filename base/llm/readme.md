@@ -50,6 +50,9 @@ LLM 决定了一个应用的能力上限。
     * [CodeGeeX2](https://github.com/THUDM/CodeGeeX2)。代码生成模型。
   * 百川智能。前搜狗王小川。
 
+### 多模态
+* [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+
 ## 原理
 ### Transformer
 LLM 模型很多都采用 Transformer 模型。GPT 的全称是 Generative Pre-Trained Transformer。

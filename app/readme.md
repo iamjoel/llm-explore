@@ -12,7 +12,9 @@
 或者是上面两类的综合。
 
 ### 个人助理
-* [Pi](https://inflection.ai/) I’m your personal AI, designed to be supportive, smart, and there for you anytime. Inflection 做的。
+* [Pi](https://inflection.ai/) [talk](https://pi.ai/talk) I’m your personal AI, designed to be supportive, smart, and there for you anytime. Inflection 做的。Inflection被视为OpenAI六大劲敌之一。公司CEO Mustafa Suleyman曾是Google人工智能实验室DeepMind的创始人之一，2022年1月，因理念与Google出现分歧，离职出来创办了Inflection。
+此轮融资后，Inflection（15.25亿美元）超越了Anthropic（15亿美元），成为融资第二多的生成式人工智能初创公司，仅次于 OpenAI（迄今为止已筹集113亿美元）。紧随其后的是Cohere（4.45亿美元）、Adept（4.15亿美元）、Runway（1.955亿美元）、Character.ai（1.5亿美元）和Stability AI（约1亿美元）。
+Inflection目前的团队大约有35人，行事作风低调，很少接受媒体采访。最近一次引起大众关注是他们于5月推出了首款产品，即名为Pi的个人AI助理。
 * [copy.ai](https://www.copy.ai/) 给 prompt 做了分类。
 
 ### 对话式数据库

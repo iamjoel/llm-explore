@@ -36,5 +36,8 @@ results = evaluate(dataset)
 
 ragas_score 是一个综合的分数，它是上述四个分数的的调和平均值。
 
+## 应用项目
+* [SEC Insights](https://github.com/run-llama/sec-insights) A real world full-stack application using LlamaIndex. [run-llama](https://github.com/run-llama) 下的好多项目感觉都可以关注下。
+
 ## 工具
 * [Text Splitter Playground](https://langchain-text-splitter.streamlit.app/) 体验不同分段策略的效果。[GitHub](https://github.com/langchain-ai/text-split-explorer)。作者: [Harrison Chase](https://twitter.com/hwchase17) 是 LangChain 的。

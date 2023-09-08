@@ -46,6 +46,7 @@ A: AI 的回答。
 ## 优化方向
 关键字： [APE（Automatic Prompt Optimization）](https://www.promptingguide.ai/techniques/ape)
 * [gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer) 根据需求，生成多个 Prompt。自动评估，挑选里面最好的一条。
+* [promptfoo](https://github.com/promptfoo/promptfoo) promptfoo is a tool for testing and evaluating LLM output quality. 评估 prompt 效果的。可以自动化。
 * 提升清晰性
   * [betterprompt](https://github.com/krrishdholakia/betterprompt) 衡量困惑度。论文中研究：在广泛的任务，我们表明，较低的困惑的提示，提示符就能够更好地执行任务。
 
