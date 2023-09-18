@@ -54,3 +54,6 @@ Inflection目前的团队大约有35人，行事作风低调，很少接受媒�
 Embedding 技术越来越被开发者熟知，以及Anthropic 之类的LLM 支持的 max token 越来越大。
 * [chatpdf](https://www.chatpdf.com/)
 * [Pandagpt](https://www.pandagpt.io/)
+
+## 资源
+* [AI 产品榜](https://dnipkggqxh.feishu.cn/wiki/YTIUwM6Vmij4IQkSm9PctPWunIb) 可以观察流量大的产品在做什么。AI 流量榜，增速榜，降速榜，人均时长。
