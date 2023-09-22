@@ -24,6 +24,9 @@ Inflection目前的团队大约有35人，行事作风低调，很少接受媒�
 ### 读论文
 * [GPT 学术优化 (GPT Academic)](https://github.com/binary-husky/gpt_academic) 为ChatGPT/GLM提供实用化交互界面，特别优化论文阅读/润色/写作体验。
 
+### 出题/帮助复习
+* [Examor](https://github.com/codeacme17/examor/blob/main/docs/zh-doc.md) 一款网站应用，它可以根据您的知识笔记进行周期性的测试，让您真正的记住所学所写。
+
 ### 虚拟角色
 * [RealChar](https://github.com/Shaunwei/RealChar) Create, customize and talk to your AI Character/Companion in realtime.
 * [Chat凉宫春日 Chat-Haruhi-Suzumiya](https://github.com/LC1332/Chat-Haruhi-Suzumiya)
