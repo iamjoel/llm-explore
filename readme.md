@@ -28,6 +28,8 @@
 * 应用
 
 ## 资源
+* [一站式 LLM 底层技术原理入门指南](https://s3tlxskbq3.feishu.cn/docx/NyPqdCKraoXz9gxNVCfcIFdnnAc
+) 用于零基础入门大语言模型(Large Language Model, LLM)底层技术原理，最直接面向群体为非科班出身但想要了解 AI 技术原理的投资人。
 * [Prompt Engineering Guide](https://www.promptingguide.ai/zh)
 * [构筑大语言模型应用：应用开发与架构设计](https://aigc.phodal.com/prelude.html)
 * [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) DeepLeaning 出品。
