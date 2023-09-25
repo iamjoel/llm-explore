@@ -1,5 +1,7 @@
 # RAG
-效果做的最好的是 [Perplexity](https://www.perplexity.ai/)
+RAG 太难做了。场景多，链路长，工具多。做 60 分容易，做 80 分很难，但用户期待的是 90 甚至 100 分。业界还没有做到 90 分的产品。
+
+效果做的最好的是 [Perplexity](https://www.perplexity.ai/)。开源的 LlamaIndex 提供了一堆工具，但都很塑料。
 
 ## 流程
 清洗，分段，嵌入，召回。
