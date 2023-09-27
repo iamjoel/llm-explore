@@ -18,7 +18,7 @@ Prompt Engineer.
   * HuggingGPT
   * ReAct 模式
 
-## 对于不通模型的 Prompt 说明
+## 对于不同模型的 Prompt 说明
 ### Claude
 Claude 对 XML 比较敏感。可以在 Prompt 里中加 XML。
 ```html
@@ -67,9 +67,21 @@ PROMPTMETHEUS is a Prompt Engineering IDE, designed to help you automate repetit
 * [ChatGPT Prompt Generator ](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator) 从一些模版中去搜索。
 
 ## 方法论
+* [TELer](https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247552652&idx=2&sn=189aca99e5b7a16cf8b0fe260192be2c&scene=21#wechat_redirect) 整个提示指引可以被 TELeR 即轮次（Turn）、表达（Expression）、细节级别（Level of Details）与角色（Role）的首字母组合表达。
+* [设计提示的通用技巧](https://www.promptingguide.ai/zh/introduction/tips)
 * [LangGPT — Empowering everyone to create high-quality prompts!](https://github.com/yzfly/LangGPT) 结构化 Prompt。[我用这10个Prompt提示词做了产品经理AI助手，效果平替PMAI！](https://mp.weixin.qq.com/s/XZ4XhpEKwcDRBBfINHjUYg)
 * [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)
 
+## 评估
+* ICL（In-context Learning, ICL）效果的评估方法。 
+  * 论文:[InstructEval: Systematic Evaluation of Instruction Selection Methods](https://arxiv.org/pdf/2307.00259.pdf)
+  * [放弃评测大模型，普林斯顿大学已经开始评估Prompt了，提出Prompt评估框架](https://zhuanlan.zhihu.com/p/644546392)
+  * Prompt 资源:
+    * [promptsource](https://github.com/bigscience-workshop/promptsource)
+  * 自动 Prompt 生成方法
+    * Low Perplexity：由 Gonen 等人提出的根据最小困惑度选择 ChatGPT 生成的 Prompt 方法
+    * APE：由 Zhou 等人提出的自动少样本Prompt 生成方法，通过 OpenAI DaVinci 自动生成指令，并依据其在几个验证示例中的准确度对 Prompt 方法进行选择与改进
+    * RLPrompt：由 Deng 等人提出的基于强化学习的少样本Prompt 自动生成方法
 ### Prompt 管理
 * [Knit](https://promptknit.com/) Playground + prompt 的历史，保存，在团队内分享
 

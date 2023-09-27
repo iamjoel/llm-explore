@@ -43,3 +43,6 @@ ragas_score 是一个综合的分数，它是上述四个分数的的调和平�
 
 ## 工具
 * [Text Splitter Playground](https://langchain-text-splitter.streamlit.app/) 体验不同分段策略的效果。[GitHub](https://github.com/langchain-ai/text-split-explorer)。作者: [Harrison Chase](https://twitter.com/hwchase17) 是 LangChain 的。
+
+## 其他
+* [用 LLM 构建企业专属的用户助手](https://zhuanlan.zhihu.com/p/645658201) PingCAP 的人写的，写的不错。

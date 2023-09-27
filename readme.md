@@ -28,11 +28,12 @@
 * 应用
 
 ## 资源
+* [一站式 LLM 底层技术原理入门指南](https://s3tlxskbq3.feishu.cn/docx/NyPqdCKraoXz9gxNVCfcIFdnnAc
+) 用于零基础入门大语言模型(Large Language Model, LLM)底层技术原理，最直接面向群体为非科班出身但想要了解 AI 技术原理的投资人。
+* [What Builders Talk About When They Talk About AI](https://a16z.com/what-builders-talk-about-when-they-talk-about-ai/)
 * 红杉资本的观察
   * 2022/09 [Generative AI: A Creative New World](https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/) 
   * 2023/09 [Generative AI’s Act Two](https://www.sequoiacap.com/article/generative-ai-act-two/) 
-* [一站式 LLM 底层技术原理入门指南](https://s3tlxskbq3.feishu.cn/docx/NyPqdCKraoXz9gxNVCfcIFdnnAc
-) 用于零基础入门大语言模型(Large Language Model, LLM)底层技术原理，最直接面向群体为非科班出身但想要了解 AI 技术原理的投资人。
 * [Prompt Engineering Guide](https://www.promptingguide.ai/zh)
 * [构筑大语言模型应用：应用开发与架构设计](https://aigc.phodal.com/prelude.html)
 * [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) DeepLeaning 出品。
