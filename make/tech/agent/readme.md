@@ -12,6 +12,9 @@ Function Call 的效果比 ReACT 好。
 
 AutoGPT 之类的。
 
+## 自主(Autonomous) 代理
+[这里](./autonomous-agent/readme.md)
+
 ## 其他
 * [Cot](./cot/readme.md)
 * 思维树
