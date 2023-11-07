@@ -4,6 +4,9 @@
 * Semantic Kernel
 * [Guidance](https://github.com/guidance-ai/guidance)
 
+## Application Framework
+* [AI.JSX](https://github.com/fixie-ai/ai-jsx) Fixie 出品。
+
 ## Memory(记忆)
 记忆本质上依赖的是总结的能力。
 
