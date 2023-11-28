@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+.streamlit
+.venv
+__pycache__
+cache

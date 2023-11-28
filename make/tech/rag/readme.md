@@ -6,6 +6,9 @@ RAG 太难做了。场景多，链路长，工具多。做 60 分容易，做 80
 ## 流程
 清洗，分段，嵌入，召回。
 
+## 向量数据库
+推荐：[qdrant](https://qdrant.tech/)
+
 ## 评估
 ### [ragas](https://github.com/explodinggradients/ragas)
 ragas是一个框架，它可以帮助你评估你的检索增强生成（Retrieval Augmented Generation，简称RAG）管道，这是一类使用外部数据来增强LLM（语言模型学习）上下文的应用程序。RAG管道是近年来人工智能领域的重要研究方向，主要是通过检索和生成的相结合，以提高模型的生成质量和准确性。ragas框架为此提供了评估工具，使得开发者和研究者能够更好地理解其性能和效果，进一步优化其模型。

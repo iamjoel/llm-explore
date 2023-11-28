@@ -7,6 +7,7 @@
 * [brancher.ai](https://www.brancher.ai/) 生成网站。线性的工作流：文字，表单，Prompt + 大模型 生成。
 
 ## 单步
+* [Lobe-chat](https://github.com/lobehub/lobe-chat) UI 做的很漂亮。目前(2023/11/24)不支持 RAG。基于 Typescript。
 * [Anakin.ai](https://anakin.ai/) Bring AI to everyone's work. 文本生成，图片生成。
 * [CopilotHub](https://app.copilothub.ai/copilots) 从 prompt hub 转行为面向学生的解读论文类等。
 * [猴子无限](https://frame.infmonkeys.com/) 各种都往里堆，更多是体验
